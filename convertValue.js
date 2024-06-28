@@ -1,3 +1,7 @@
+import conversionRates from "./conversionRates.json" with { type: "json" };
+
 export function convertValue(value, fromUnit, toUnit) { 
-    console.log(value)
+    if (fromUnit === "m" && toUnit === "ft") {
+        console.log(value * conversionRates.length.m.ft)
+    }
 };

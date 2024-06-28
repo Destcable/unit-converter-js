@@ -6,4 +6,4 @@ const convert = (value) => ({
     })
 })
 
-convert(10).from('m').to('ft');
+convert(222).from('m').to('ft');
